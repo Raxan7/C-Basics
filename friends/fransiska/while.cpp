@@ -9,14 +9,15 @@ int main() {
     int num, sum;
     sum = 0;
 
-    cout << "Enter a positive integer: ";
-    cin >> num;
+    cout << "Enter a positive integer: " << endl;
+    num = 5;
 
-    for (int i = 1; i <= num; ++i) {
+    for (int i = 1; i <= num; i++) {
         sum += i;
+        cout << sum << endl;
     }
 
-    cout << "Sum = " << sum << endl;
+    // cout << "Sum = " << sum << endl;
 
     return 0;
 }
