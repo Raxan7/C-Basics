@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int arrays[6], n;
+    int arrays[6], n, sum;
     n = 0;
     for (int i = 0; i < 6; i++){
         if (i == 0){
@@ -10,7 +10,8 @@ int main(){
         } else {
             arrays[i] = n += 2;
         }
-        cout << arrays[i] << endl;
+        sum += arrays[i];
     }
     // cout << arrays[i] << endl;
+    cout << sum << endl;
 }
