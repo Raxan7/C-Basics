@@ -7,6 +7,6 @@ int main(){
         n += i;
         i++;
     }
-    cout << n << endl;
-    cout << i << endl;
+    cout << "The value of n is : " << n << endl;
+    cout << "The value of i is : " << i << endl;
 }
