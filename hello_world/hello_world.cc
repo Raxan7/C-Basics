@@ -1,9 +1,14 @@
 #include <iostream>
 using namespace std;
-/*
-    In order to change c++ into assembly code, we use 'gcc -S filename.extension'
-*/
 int main(){
-    cout << "Hello World" << endl;
+    char user;
+    char a = 'a';
+    cin >> user;
+    if(a == user){
+        cout << "True" << endl;
+    }
     return 0;
 }
+    
+    
+    
