@@ -1,17 +1,12 @@
-// A program to add even numbers in an array
+// A program to add elements in an array
 #include <iostream>
 using namespace std;
 int main(){
-    int arrays[6], n, sum;
-    n = 0;
+    int arrays[6], sum;
     for (int i = 0; i < 6; i++){
-        if (i == 0){
-            arrays[i] = n;
-        } else {
-            arrays[i] = n += 2;
-        }
+        arrays[i] += i;
         sum += arrays[i];
+        cout << sum << endl;
     }
-    // cout << arrays[i] << endl;
-    cout << sum << endl;
+    cout << "The sum of the elements in the array is : " << sum << endl;
 }
